@@ -23,16 +23,17 @@
 
 
 void print_array( unsigned char * data , int dataLength );
+ //@brief Prints data array 
+unsigned char find_median( unsigned char * sortedData , int dataLength );
+                             
+unsigned char find_mean( unsigned char * data , int dataLength );
 
-/**
- * @brief Prints data array 
- *
- * Given an array of data and a length, prints the array to the screen.
- * Function uses a loop and prints the array.
- *
- * @param unsigned char * data - Input is the data array 
- * @param int dataLength  - Input is length of the data array
+unsigned find_maximum( unsigned char * data , int dataLength );
 
- * @return Nothing. Because does not have to return anything. It just print an array.
+unsigned char find_minimum( unsigned char * data , int dataLength );
+
+void sort_array( unsigned char * data , int dataLength );
+
+void swap( unsigned char * firstItem , unsigned char * secondItem );
 
 #endif /* __STATS_H__ */
